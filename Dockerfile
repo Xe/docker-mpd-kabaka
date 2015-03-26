@@ -1,4 +1,4 @@
-FROM xena/alpine
+FROM alpine
 
 ADD http://equine.vacantminded.com/~kabaka/kabaka-529bc4fa.rsa.pub /etc/apk/keys/
 ADD repositories /etc/apk/
